@@ -22,6 +22,7 @@ function Relogio() {
     minutosRD.innerText = m;
     segundosRD.innerText = s;
     ampmRD.innerText = ampm;
+    
     setTimeout(() => {
         Relogio()
     }, 1000)
