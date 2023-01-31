@@ -21,7 +21,7 @@ function Relogio() {
     horasRD.innerText = h;
     minutosRD.innerText = m;
     segundosRD.innerText = s;
-    ampmRD, (innerText = ampm);
+    ampmRD.innerText = ampm;
     setTimeout(() => {
         Relogio()
     }, 1000)
